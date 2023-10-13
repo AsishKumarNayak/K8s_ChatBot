@@ -1,6 +1,0 @@
-- story: greet and check pod status
-  steps:
-    - intent: greet
-    - action: action_greet
-    - intent: get_pod_status
-    - action: action_check_pod_status
