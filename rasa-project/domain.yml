@@ -1,0 +1,19 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - get_pod_status
+entities:
+  - pod_name
+
+actions:
+  - action_greet
+  - action_goodbye
+  - action_check_pod_status
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+
