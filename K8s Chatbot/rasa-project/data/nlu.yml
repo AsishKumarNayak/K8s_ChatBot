@@ -1,0 +1,10 @@
+- intent: greet
+  examples: |
+    - Hi
+    - Hello
+    - Hey
+
+- intent: get_pod_status
+  examples: |
+    - Check the status of pod {pod_name}
+    - Is pod {pod_name} running?
